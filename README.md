@@ -1,11 +1,16 @@
-# node-js
+# Recipe API app
 A recipe CRUD API app built on node js , express js and mongodb
+
+The API can be able to add a recipe, edit a recipe, get all recipe or a single recipe and delete a recipe
+
+The Express JS framework handles the API CRUD, mongodb handles the DB storage while Moongoose is used as an Object Document Mapper (similar to an ORM in python)
 
 ## Requirements
 
 * NodeJS
 * Mongo DB
 * express JS framework
+* Moongoose 
 
 
 ## Installation
@@ -17,12 +22,18 @@ use npm or yarn
 
          
       $ npm install
+      $ npm install moongoose
+      $ npm install body-parser
+      $ npm install express
        
    
    using yarn
    
      
       $ yarn install
+      $ yarn add moongoose
+      $ yarn add express
+      $ yarn add body-parser
   
 
 #### 2. Run the Application
@@ -35,7 +46,6 @@ use npm or yarn
    
   using yarn
    
-        
         $ yarn run
     
 #### 3. Running the Tests

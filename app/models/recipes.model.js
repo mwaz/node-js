@@ -1,16 +1,14 @@
-import { Mongoose } from "mongoose";
-
 const moongoose = require("mongoose");
 
 const RecipeSchema = moongoose.Schema(
   {
     recipeName: String,
     recipeIngredients: String,
-    recipeDescription: String
+    recipeMethods: String
   },
   {
     timestamps: true
   }
 );
 
-module.exports = Mongoose.module("Recipes", RecipeSchema);
+module.exports = moongoose.model("Recipes", RecipeSchema);

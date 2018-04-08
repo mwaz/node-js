@@ -1,0 +1,26 @@
+{
+  "name": "expressjs-crud",
+  "version": "1.0.0",
+  "description": "api crud",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nodejs.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "mwaz",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0"
+  }
+}

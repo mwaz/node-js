@@ -3,7 +3,7 @@
  */
 const express = require("express");
 const bodyParser = require("body-parser");
-const routes = require("./routes/routes");
+const routes = require("./app/routes");
 const dbConfig = require("./config/database.config");
 const moongoose = require("mongoose");
 

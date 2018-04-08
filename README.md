@@ -1,4 +1,4 @@
-# Recipe API app
+# Recipes CRUD RestFul API 
 A recipe CRUD API app built on node js , express js and mongodb
 
 The API can be able to add a recipe, edit a recipe, get all recipe or a single recipe and delete a recipe

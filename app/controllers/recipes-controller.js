@@ -1,3 +1,6 @@
+/**
+ * Handles logic for recipe CRUD
+ */
 const Recipe = require("../models/recipes.model");
 
 exports.create = (req, res) => {

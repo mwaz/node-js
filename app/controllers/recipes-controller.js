@@ -84,6 +84,7 @@ exports.update = (req, res) => {
       recipeIngredients: req.body.recipeIngredients,
       recipeMethods: req.body.recipeMethods
     },
+
     { new: true }
   )
     .then(recipe => {
@@ -92,6 +93,7 @@ exports.update = (req, res) => {
           message: `No recipe found with the id ${req.params.recipeID}`
         });
       }
+      res.send(recipe);
     })
     .catch(err => {
       if (err.kind === "ObjectId") {

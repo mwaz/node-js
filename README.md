@@ -26,7 +26,6 @@ use npm or yarn
       $ npm install body-parser
       $ npm install express
        
-   
    using yarn
    
      
@@ -38,7 +37,11 @@ use npm or yarn
 
 #### 2. Run the Application
 
-  using npm
+ fire app mongodb in a different terminal
+      
+      $ mongod <Path to your db> //eg $ mongod ~ /Documents/mongo/data/db
+ 
+ using npm
 
        
         $ npm run

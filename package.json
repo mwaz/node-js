@@ -17,7 +17,8 @@
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "faker": "^4.1.0"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^12.1.0",

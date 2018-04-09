@@ -4,7 +4,9 @@
   "description": "api crud",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "start": "node app.js",
+    "dev": "nodemon ./app.js localhost 3001"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,8 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "faker": "^4.1.0",
-    "mongoose": "^5.0.13"
+    "mongoose": "^5.0.13",
+    "nodemon": "^1.17.3"
   },
   "devDependencies": {
     "eslint-config-airbnb-base": "^12.1.0",

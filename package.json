@@ -21,6 +21,7 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "faker": "^4.1.0",
+    "jsonwebtoken": "^8.2.1",
     "mongoose": "^5.0.13",
     "nodemon": "^1.17.3"
   },
